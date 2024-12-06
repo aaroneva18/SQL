@@ -11,3 +11,6 @@ MODIFY COLUMN description varchar(250); --actualiza el tipo de campo, en este ca
 
 ALTER TABLE persons8 
 DROP COLUMN description; --Para borrar una columna
+
+ALTER TABLE persons8 
+ADD COLUMN `clave` VARCHAR(45) NOT NULL AFTER `id`;
